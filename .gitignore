@@ -1,0 +1,14 @@
+*.aux
+*.bbl
+*.blg
+*~
+*.ps
+*.dvi
+*.log
+*.bak
+*.old
+*.lof
+*.lot
+*.toc
+new.tex
+old.tex
