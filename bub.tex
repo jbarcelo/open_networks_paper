@@ -470,13 +470,18 @@
 
 \begin{abstract}
 %\boldmath
-Open Source software development exemplifies a collaborative production model that comes with several advantages.
-This advantages include efficiency, quality, affordability and educational value.
-It is not surprising that this model is being applied in other contexts to obtain similar advantages.
-As an example, Creative Commons content and the collaborative enciclopedia Wikipedia reproduce with great success the production model of Open Source software.
 
-In this paper we focus on networks and networking initiatives that draw on similar openness principles.
-We differentiate between shared networks, open access networks and free (libre) networks.
+This paper discusses open networks.
+The open software and open hardware movements are relatively well established and known.
+Contrastingly, there is little discussion on open network initiatives.
+Software, hardware and networks are closely knitted together and therefore it makes sense to explore open networks by establishing parallelisms with open software.
+
+The first part of this paper presents a classification of open networks, according to the degree of openness.
+Then we study the driving principles behind open networks to see that they are not that different from those found in open software development.
+The way of doing that has allowed the growth and the success of open hardware may as well represent the key strength of open networks.
+We point out the advantages of the peer to peer production model found in communities
+Finally, we introduce the Bottom-up Broadband project that has the goal to study and promote open networks.
+
 
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
@@ -542,6 +547,117 @@ We emphasize the benefits of open networking for research and education, as the 
 We also briefly describe the ``Commons for Europe'' project and the ``Bottom-up Broadband'' initiative that has the goal of studying and promoting networking deployments in which the users are active participants and not mere passive consumers.
 
 
+\section{A Classification of Open Sensor Networks}
+
+When it comes to openness, each network has its own particularities.
+We propose a classification that encompasses three levels of openness: shared networks, open access networks and free (libre) networks.
+Examples are provided for each kind of network to illustrate the concepts.
+
+\subsection{Shared Networks}
+
+Sharing networks is a first step towards more open networks.
+This sharing can often result in a win-win situation for all the participants.
+We provide three examples of such sharing.
+
+Eduroam is an international WiFi roaming service for members of education institutions.
+It is useful for visiting scholars and for students using libraries of different universities.
+All of them can use their home university credentials to access the Internet from the premises of any other affiliated institution.
+It is useful for the visitor and also for the host institution that benefits from the visit.
+
+ProvinciaWiFi is a WiFi service offered in the province of Rome and other locations in Italy that offers WiFi access in public locations.
+Many commerces collaborate and share their own bandwidth with ProvinciaWifi to attract and retain customers.
+In this case, the commerces adquire an access point with ProvinciWifi's open firmware called OpenWisp, and ProvinciaWifi takes care of the user authentication according Italian law.
+
+Finally, FON is an example of a business model built on collaboration.
+People can share their own access network with visitors in exchange of the possibility of using other networks in other locations.
+Users that are not part of the community must pay for this WiFi access and FON pays a share of this income to the owner of the network.
+FON has partnered with large Telecom operators, such as BT and Deutsche Telekom, that have recognized the benefits of network sharing.
+
+
+\subsection{Open Access Networks}
+
+Open Access Networks present a layered model in which different service providers can share the same infrastructure.
+The participating entities agree in a set of rules that govern their collaboration.
+In a basic model \cite{battiti2005wireless}, a \emph{neutral operator} takes care of the infrastructure.
+Then, multiple service providers offer multiplicity of services such as TV, telephone and Internet access.
+The service providers use a share of their incomes to pay to the network operator for the common infrastructure.
+
+This model represents savings for the service providers, that can reach a large number of customers without incurring in costly infrastructure deployment.
+Furthermore, it lowers the entry barrier for new Service Providers and fosters competition and innovation.
+The users have a larger number of options to choose from and select the service providers that better adapt to their needs.
+As it easy for an user to switch from one service provider to another, the service providers have a good incentive to keep their customers happy.
+Happy customers spend more money on communication services which is, in turn, beneficial for the service providers.
+
+In this model, the final users, house owners, the City Hall or other organizations may have interest in collaborating in the extension of the access network.
+A single investment in a neighborhood will provide the citizen with a diverse offering of services.
+Forzati et al. \cite{forzati2010open} report that 95\% of the municipality networks in Sweden operate according open access network models.
+
+The neutral operator is in a privileged position as it owns the network that all the others ISPs need to use.
+Consequently, it is recommended that the neutral operator is a \emph{for benefit} (not for profit) organization.
+The neutral operator should not be allowed to offer services to the final user, and should treat all service providers equally, following some agreed rules \cite{battiti2005wireless}.
+The service providers still operate under a market competition logic.
+Nevertheless, is spite of being competitors, the service providers need to collaborate to maintain the neutral operator.
+
+\subsection{Free (Libre) Networks}
+
+Free (libre) networks are the network equivalent of free (libre) software.
+They are community-oriented and governed by rules that emphasize freedom.
+\emph{guifi.net} is an example initiative of a free network and operates according to four basic pillars:
+\begin{itemize}
+\item Freedom to use the network, as long the other users, the contents, and the network itself are respected.
+\item Freedom to learn how the network elements and the network as a whole works. Freedom to disseminate the knowledge and the spirit of the network.
+\item Freedom to offer services and contents.
+\item By joining the network, the network is extended according to the previous principles.
+\end{itemize}
+
+There are other community networks operating under similar principles.
+\emph{guifi.net} has the merit of having extended beyond the technical community and currently has 21,000 working nodes and is growing at a steady pace.
+This growth has been enabled by the development of automated tools to configure and manage the nodes.
+Another remarkable aspect is that \emph{guifi.net} has evolved since its origins to embrace new technologies, such as optical fiber and dynamic wireless mesh solutions.
+Optical fiber offers gigabit per second speeds to the participants of the network and dynamic wireless mesh makes it possible to have out-of-the box quick network deployments.
+
+Regarding the funding, the network has grown organically in a model in which the people that joins the network contributes with a new node.
+Crowdsourcing is used to pay for more ambitious actions that benefit many participants.
+Optical fiber deployment has been a new challenge in terms of funding, as the interested participants had to pay in advance to cover the cost of the deployment.
+A model similar to the above defined open access network has been adopted in which multiple service providers are allowed to operate over the common infrastructure.
+Even though the users have to pay for the initial inversion, this is compensated by the lower monthly fees and the higher connection speed, which are currently 1 Gbps.
+
+Interestingly,  the bottom-up fiber deployment has occurred in a rural region to connect farms that did not have other broadband alternatives.
+The region was not attractive for traditional top-down operators, as urban deployments are more profitable.
+By changing the model from top-down to bottom-up it was possible to offer high quality service to the users and provide business to two small local ISPs.
+
+The availability of broadband connection is a clear advantage for the development of the region and the presence of a free network in the area has positively impacted the digital inclusion indicators \cite{oliver2010wca}.
+
+\subsection{Steps towards a global free network}
+The Free Network Foundation wiki describes that the transition towards a global free network is going to be progressive.
+In a first step, neighbours will connect to share an Internet access.
+This is already quite common, as sharing makes it possible to take advantage of statistical multiplexing.
+Many users are not making and intense use the network the whole day and therefore they can save some money sharing the connexion.
+
+In a second step, the participants that created a network to share Internet access start to offer services in the network.
+Network logging and monitoring servers, web servers, proxy servers, mailing lists, internet relay chat servers, blog servers and ftp servers are natural choices.
+At this point, the bottom-up broadband network is not only a content consumer.
+It is also a content provider.
+
+The third step is to interconnect the \emph{bottom-up broadband} islands using tunnels.
+And the fourth step is to deploy backbone links to replace the tunnels.
+
+The final goal of the bottom-up broadband network should be to provide access to anyone that is interested, to prevent that price barriers leave a fraction of the population without access to the Internet.
+
+
+\subsection{Open Sensory Data}
+
+An area that has been subject to intense research in the last years is sensor networks.
+This is still an emerging technology that promises to make it possible to gather large quantities of data that then can be used to make decisions or offer services.
+
+%We can find different approaches in the deployment of sensor networks and the management of the collected data.
+%In a closed approach, an individual or organization can use a closed solution (closed hardware, closed software) to gather the data that then will be kept secret.
+The principles of openness can also be applied to sensor networks.
+There are initiatives, such as the Air Quality Egg or the Smart Citizen Kit, that embrace a community-driven solution in which open hardware and open software is used to create the network.
+These initiatives have the complicity of the hacker and do-it-yourself hordes to adjust, refine and enhance the solutions.
+Importantly, the data is gathered an owned by the users that can choose to share as open data for other to create applications and value on top of it.
+
+
 \section{Peer-to-Peer Production Model}
 The peer-to-peer production model \cite{bauwens2009class} relies on horizontal symmetric relations.
 It is in contrast to the hierarchical boss-to-subordinate model and the consumer-producer model.
@@ -559,10 +675,10 @@ In any case, the peer-to-peer production model is inclusive by definitions and o
 Even for those that have little to contribute, the peer-to-peer model offers the possibility of learning and being part of the project.
 
 The peer-to-peer model relies on transparency and openness, ethical principles and good practices.
-These driving principles derive in what it has been termed ``hyper productivity'' compared to hierarchical models.
+These driving principles derive in what it has been termed \emph{hyperproductivity}, in the sense that they are more effective than hierarchical models.
 The higher efficiency of peer production models may result in the progressive displacement and replacement of previous production models.
 The changes occur progressively and gradually.
-In the following sections we describe initiatives that show that these changes are indeed happening.
+In the following we detail some specific aspects that characterize peer to peer models.
 
 \subsection{Throwing more brains into the project}
 
@@ -571,41 +687,54 @@ Having more people thinking and working for the project improves and speeds up t
 Moreover, by providing the users all the information about the network, it is possible for them to provide high-quality feedback and help.
 
 Another aspect is that building a network requires a large set of skills, including purchase , installation, configuration, programming, design, financial, legal, etc.
-The person that it is good mounting a pole on top of the roof is not necessarily the one that has server administration skills.
+The person that is at good mounting a pole on top of the roof is not necessarily the one that has server administration skills.
 By having a large number of people involved, all the necessary skills can be covered by one or more of the participants.
 
 Furthermore, people have the chance of doing what they like to do and what they are good at.
-The person that enjoys aligning antennas will probably good at it and will do it for pleasure whenever it is needed.
+The person that enjoys aligning antennas will probably be good at it and will do it for pleasure whenever it is needed.
 Someone else will prefer to prepare video tutorials.
 Ideally, everyone can find a way in which she can efficiently collaborate with the project.
 Giving the people the opportunity to decide in which way they want to collaborate is one of the key advantages of the peer-to-peer model compared to the top-down approach.
 
+Letting people participate in the decision-making process and perform the tasks they are interested in results in a higher motivation, that also helps to improve the efficiency of the peer to peer model.
 
 
-\section{Shared Networks}
+\subsection{The peer-to-peer economic ecosystem}
 
-Sharing networks is a first step towards more open networks.
-This sharing can often result in a win-win situation for all the participants.
-We provide three examples of such sharing.
+Bottom-up Broadband initiatives normally begin with a purpose of social service.
+Quite often, the participants usually are interested in satisfying their own networking needs and those of their communities.
+It is not uncommon that each participant buys her own hardware to be part of the network.
+As the building of a data communication networks results in the simultaneous construction of a network of trust, the participants team up and collaborate using crowdfunding schemes to buy equipment that is perceived to be beneficial for all.
+For the most ambitious initiatives, such as optical fiber networks, the participants need to reach an agreement and advance an important quantity of money to make the deployment possible.
+Sometimes, local authorities perceive that there is a value in supporting the deployment of networks and also contribute to this initiatives.
 
-Eduroam is an international WiFi roaming service for members of education institutions.
-It is useful for visiting scholars and for students using libraries of different universities.
-All of them can use their home university credentials to access the Internet from the premises of any other affiliated institution.
-It is useful for the visitor and also for the host institution that benefits from the visit.
+Even though the main motivation is not to make money out of the network, as the network grows an economic ecosystem is created to support it.
+For instance, hardware merchants can specialize in selling the equipment that is needed for the network.
+Also installers have an opportunity to work for those users that are not skilled enough in placing and configuring the equipment.
+This is specially critical in more complex deployment such as optical fiber networks.
+Finally, it is also possible to create companies that sell services, such as Internet access or TV on top of the bottom-up network.
+The result is that in addition to offering broadband to the users, the network also offers jobs and stimulates the local economy.
 
-ProvinciaWiFi is a WiFi service offered in the province of Rome and other locations in Italy that offers WiFi access in public locations.
-Many commerces collaborate and share their own bandwidth with ProvinciaWifi to attract and retain customers.
-In this case, ProvinciaWiFi takes care of the identification of the users according to the Italian law, and commerces can participate by acquiring an inexpensive access with ProvinciaWifi's firmware.
+These companies are leaded by local enterpreneurs, which also spend their money locally and in this way maintain the wealth of the community.
+The small companies that make a living on the network have a good incentive to invest in such network, and therefore reinforce the bottom-up broadband initiative.
+Nevertheless, these companies operate in the frontier between the peer-to-peer economy and the market economy and tension and disputes arise.
+The companies are natural competitors but they have to invest in the same commons resource.
+It can be tempting for one company to stop investing in the network in order to obtain a competitive advantage over the other.
+However, this move can be perceived by the community that then will favor the company that gives more to the network.
+This presents a delicate equilibrium that not always can resolve satisfactorily.
 
-Finally, FON is an example of a business model built on collaboration.
-People can share their own access network with visitors in exchange of the possibility of using other networks in other locations.
-Users that are not part of the community must pay for this WiFi access and FON pays a share of this income to the owner of the network.
-FON has partnered with large Telecom operators, such as BT and Deutsche Telekom, that have recognized the benefits of network sharing.
+In the ideal case, the situation is not that different from the one existing in the open source ecosystem, in which there are companies that make a living out of open source and generously donate code or employees to the community in order to strengthen the ecosystem.
+
+In the case of open sensor networks, a possible sustainability model is the selling of open hardware.
+This approach have already been successfully executed by open hardware designers and manufacturers, such as Arduino an Raspberry.
+The product is open hardware and therefore can benefit from the efforts and contributions of the community.
+At the same time, most people will prefer to buy the product rather than produce it themselves.
+The incomes originating from selling devices can be used to maintain a team of core developers and reinvest in improving the product.
 
 
 \subsection{From scarcity to abundance}
 
-In a market economy, the resources are scarce and therefore they can be sold or exchanged to obtain the maximum profit.
+In a market economy, the resources are scarce and therefore they can be sold to obtain the maximum profit.
 In an abundance economy, it is no longer possible to speculate with the goods as there are more goods than needed.
 In this economies, the goal of the participants is no longer to accumulate wealth, but to build up reputation.
 Reputation is obtained by giving gifts, and for this reasons this model also receives the name of gift-economy \cite{barbrook1998htg}.
@@ -618,119 +747,9 @@ With digital goods, its easy to reach gift economies because the cost of replica
 
 For network deployment, the situation is not that obvious.
 Still, it is not uncommon to find situations in which by contributing one node to the network, a participant receives much more that she offers.
-The spirit of the gift economy is often present in mailing lists and gatherings, in which participants uninterestedly help each others in a continuous process of learning.
+The spirit of the gift economy is often present in mailing lists and community gatherings, in which participants uninterestedly help each others in a continuous process of learning.
 
-
-\section{Open Access Networks}
-
-Open Access Networks present a layered model in which different service providers can share the same infrastructure.
-The participating entities agree in a set of rules that govern their collaboration.
-In a basic model \cite{battiti2005wireless}, a ``neutral operator'' takes care of the infrastructure.
-Then, multiple service providers offer multiplicity of services such as TV, telephone and Internet access.
-The service providers use a share of their incomes to pay to the network operator for the common infrastructure.
-
-This model represents savings for the service providers, that can reach a large number of customers without incurring in costly infrastructure deployment.
-Furthermore, it lowers the entry barrier for new Service Providers and fosters competition and innovation.
-The users have a larger number of options to choose from and select the service providers that better adapt to their needs.
-As it easy for an user to switch from one service provider to another, the service providers have a good incentive to keep their customers happy.
-Happy customers spend more money on communication services which is, in turn, benefitial for the service providers.
-
-In this model, the final users, house owners, the City Hall or other organizations may have interest in collaborating in the extension of the access network.
-A single investment in a neighborhood will provide the citizen with a diverse offering of service.
-Forzati et al. \cite{forzati2010open} report that 95\% of the municipality networks in Sweden operate according open access network models.
-
-The neutral operator is in a privileged position as it owns the network that all the others ISPs need to use.
-Consequently, it is recommended that the neutral operator is a ``for benefit'' (not for profit) organization.
-The neutral operator should not be allowed to offer services to the final user, and should treat all service providers equally, following some agreed rules \cite{battiti2005wireless}.
-The service providers still operate under a market competition logic.
-Nevertheless, is spite of being competitors, the service providers need to collaborate to maintain the neutral operator.
-
-\section{Free (Libre) Networks}
-
-Free (libre) networks are the network equivalent of free (libre) software.
-They are community-oriented and governed by rules that emphasize freedom.
-\emph{guifi.net} is an example initiative of a free network and operates according to four basic pillars:
-\begin{itemize}
-\item Freedom to use the network, as long the other users, the contents, and the network itself are respected.
-\item Freedom to learn how the network elements and the network as a whole works. Freedom to disseminate the knowledge and the spirit of the network.
-\item Freedom to offer services and contents.
-\item By joining the network, the network is extended according to the previous principles.
-\end{itemize}
-
-There are other community networks operating under similar principles.
-\emph{guifi.net} has the merit of having extended beyond the technical community and currently has 21,000 working nodes and is growing at an steady pace.
-This growth has been enabled by the development of automated tools to configure and manage the nodes.
-Another remarkable aspect is that \emph{guifi.net} has evolved since its origins to embrace new technologies, such as optical fiber and dynamic wireless mesh solutions.
-Optical fiber offers gigabit per second speeds to the participants of the network and dynamic mesh makes it possible to have out-of-the box quick network deployments.
-
-Regarding the funding, the network has grown organically in a model in which the people that joins the network contributes with a new node.
-Crowdsourcing is used to pay for more ambitious actions that benefit many participants.
-Optical fiber deployment has been a new challenge in terms of funding, as the interested participants had to pay in advance to cover the cost of the deployment.
-A model similar to the above defined open access network has been adopted in which multiple service providers are allowed to operate over the common infrastructure.
-An advantage of this model is that the users then pay lower monthly fees for a better service.
-
-Interestingly,  the BuB fiber deployment has occurred in a rural region to connect farms that did not have other broadband alternatives.
-The \emph{hypereffectiveness} of the peer-to-peer production model has brought gigabit-per-second broadband to a region where the market had failed.
-The presence of a free network in the area has positively impacted the digital inclusion indicators \cite{oliver2010wca}.
-
-\subsection{Steps towards a global free network}
-The Free Network Foundation wiki describes that the transition towards a global free network is going to be progressive.
-In a first step, neighbours will connect to share an Internet access.
-This is already quite common, as sharing makes it possible to take advantage of statistical multiplexing as many users are not connected to the network the whole day.
-
-In a second step, the connected networks will start to offer services in the network.
-Network logging and monitoring servers, web servers, proxy servers, mailing lists, internet relay chat servers, blog servers and ftp servers are natural choices.
-At this point, the bottom-up broadband network is not only a content consumer.
-It is also a content provider.
-
-The third step is to interconnect the \emph{bottom-up broadband} islands using tunnels.
-And the fourth step is to deploy backbone links to replace the tunnels.
-
-The final goal of the bottom-up broadband network should be to provide access to anyone that is interested, to prevent that price barriers leave a fraction of the population without access to the Internet.
-
-
-\section{Open Sensory Data}
-
-An area that has been subject to intense research in the last years is sensor networks.
-This is still an emerging technology that promises to make it possible to gather large quantities of data that then can be used to make decisions or offer services.
-We can find different approaches in the deployment of sensor networks and the management of the collected data.
-In a closed approach, an individual or organization can use a closed solution (closed hardware, closed software) to gather the data that then will be kept secret.
-Other alternatives, such as the Air Quality Egg or the Smart Citizen Kit embrace a community-driven solution in which open hardware and open software is used to create the network.
-These initiatives have the complicity of the hacker and do-it-yourself hordes to adjust, refine and enhance the solutions.
-Importantly, the data is gathered an owned by the users that can choose to share as open data for other to create applications and value on top of it.
-
-\section{The peer-to-peer economic ecosystem}
-
-Bottom-up Broadband initiatives normally begin with a purpose of social service.
-Quite often, the participants usually are interested in satisfying their own networking needs and those of their communities.
-When possible, it is not uncommon that each participate buys her own hardware to be part of the network.
-As the building of a data communication networks results in the simultaneous construction of a network of trust, the participants team up and collaborate using crowdfunding schemes to buy equipment that is perceived to be beneficial for all.
-For more ambitious initiatives, such as optical fiber networks, the participants need to reach an agreement and advance an important quantity of money to make the deployment possible.
-Sometimes, local authorities perceive that there is a value in supporting the deployment of networks and also support this initiatives.
-
-Even though the initial intention is not to make money out of the network, as the network grows in size and importance small companies start to develop around the network.
-For instance, hardware merchants can specialize in selling the equipment that is needed for the network.
-Also installers have an opportunity to work for those users that are not skilled enough in placing and configuring the equipment.
-This is specially critical in more complex deployment such as optical fiber networks.
-Finally, it is also possible to create companies that sell services, such as Internet access or TV on top of the BuB network.
-
-All this companies are leaded by local enterpreneurs, which also spend their money locally and in this way maintain the wealth of the community.
-The small companies that make a living on the network have a good incentive in investing in such network, and therefore reinforce the BuB initiative.
-Nevertheless, these companies operate in the frontier between the peer-to-peer economy and the market economy and tension and disputes arise.
-The companies are natural competitors but they have to invest in the same commons resource.
-It can be tempting for one company to stop investing in the network in order to obtain a competitive advantage over the other.
-However, this move can be perceived by the community that then will favor the company that gives more to the network.
-This presents a delicate equilibrium that not always can resolve satisfactorily.
-
-The situation is not that different from the one existing in the open source ecosystem, in which there are companies that make a living out of open source and generously donate code or employees to the community in order to strengthen the ecosystem.
-
-In the case of open sensor networks, a possible sustainability model is the selling of open hardware.
-This approach have already been successfully executed by open hardware designers and manufacturers, such as Arduino an Raspberry.
-The product is open hardware and therefore can benefit from the efforts and contributions of the community.
-At the same time, most people will prefer to buy the product rather than produce it themselves.
-The incomes originating from selling devices can be used to maintain a team of core developers and reinvest in improving the product.
-
-\section{Advantages for research and education}
+\subsection{Advantages for research and education}
 
 The open models lean themselves to collaboration with research and education.
 The fact that all information and knowledge are shared makes it possible for students to understand the whole picture and know the working details.
@@ -738,6 +757,10 @@ Moreover, there are often tasks in which the students can collaborate.
 By collaborating, the students acquire a higher quality knowledge that by simply looking, reading or listening.
 Collaboration forces them to actually think to take decisions.
 Taking decisions also means making mistakes, but the tasks handed to the students are chosen in such a ways that the mistakes are not necessarily a problem and can be a valuable step of the learning process.
+
+As the strength of a community network resides precisely in the people, community networks place a focus on education.
+Workshops, tutorials and discussions educate and empower the users that then can contribute to the network.
+Reaching a critical mass of educated users make it possible to continuously innovate and evolve.
 
 Regarding research, a good knowledge of the overall system is necessary to correctly interpret the results.
 Furthermore, having access to the internals of the network makes it possible to design and run experiments that would be impossible in closed networks.
@@ -747,25 +770,30 @@ Just as it happens with networks, sharing the scientific results and interconnec
 Providing all the internal details of the experiments makes them reproducible and allow other teams to build on previous work.
 
 
-\section{The Bottom-up Broadband Project}
+\section{The Bottom-up Broadband for Europe}
 
-The Bottom-up Broadband project studies and encourages bottom-up networking initiatives.
-By bottom-up, we mean that there is a peer-to-peer ingredient and that the users play a more active role than mere consumers.
+The \emph{Bottom-up Broadband for Europe} initiative studies and encourages bottom-up networking deployments.
+By bottom-up, we mean that there is a peer-to-peer ingredient and that the users play a more active role than mere passive consumers.
 The project has two differentiated goals.
-In the short term, the objective is to run pilots to learn about bottom-up initiatives and learn from them 
+In the short term, the objective is to run experiments (called pilots) to learn about bottom-up initiatives, create awareness and interconnect disperse efforts.
 In a second stage of the project, the intention is to create a global community or umbrella organization that helps in promoting and coordinating the multitude of initiatives that are taking place.
 
-Wifi, sensor and optical networks are considered in this project and some of projects used as examples in this articles are the ones that have been considered as pilots.
-Bottom-up network initiatives are simply another way of creating networks, just like open source is a way of create software and wikis are a way to create encyclopedias.
-Bottom-up broadband can complement traditional broadband offers and offer added value such as the possibility of customization, experimentation and education.
+\emph{Bottom-up Broadband for Europe} tries to cover a wide range of pilots in terms of technologies being used, geographical location, funding model, number of users, etc.
+It also encourages the collaboration between students and experts and provide profuse documentation that can help to repeat successes, avoid pitfalls, and guide policymakers.
+
+We try to apply the same principles that make free libre software and free libre networks so successful.
+We run a public mailing list and everyone is invited to contribute and collaborate.
 
 \section{Conclusion} \label{sec:conclusion}
 
-In this paper we have covered bottom-up network initiatives, which are characterized by the more active participation of the users than in purely closed solutions.
-Obviously, there is a whole spectrum of openness, from the telecom operators encouraging users to share their access points with other customers to community networks.
-There is an increasing number of open networks initiatives, and the existing ones are growing in size and complexity.
-It is unavoidable to find parallelisms between the open networking initiatives and the open source projects.
-The peer-to-peer production model that has been successful in the area of open source is finding its way into other areas, including networking.
+In this paper we have discussed open networks and how they are similar to open software.
+The focus is placed on the peer-to-peer organizational models that have shown to be at the same time flexible and effective.
+The clearest example of the success of this approach is the deployment of optical networks to interconnect farms in a rural area.
+In addition to the benefits of having broadband networks, these initiatives also offer advantages in terms of education, research and local economy.
+Open networking is just a new way of building networks that encourages collaboration instead of competition.
+\emph{Bottom-up Broadband for Europe} has been created to study, document and promote open networks with the ultimate goal of eradicating the digital divide.
+We are witnesses of a transformation in which the network users take a more active role and participate and guide the creation and development of networks driven by social motivations.
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
