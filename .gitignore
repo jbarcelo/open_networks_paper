@@ -12,3 +12,6 @@
 *.toc
 new.tex
 old.tex
+*diff.pdf
+*diff.tex
+

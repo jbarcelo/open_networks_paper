@@ -9,7 +9,6 @@ pdf:
 	evince bub.pdf &
 
 publish:
-	cp bub.pdf /media/USB20FD/upf2012/webs/s3web/papers/
 	s3cmd put --acl-public bub.pdf s3://www.jaumebarcelo.info/papers/
 
 
